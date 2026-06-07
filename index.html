@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Automobile ChatBOt</h1>
+    <p>You can ask about Automobile industry</p>
+    <form
+      onsubmit="
+        GetCHatBotResponse();
+        return false;
+      "
+    >
+      <input
+        type="text"
+        name="query"
+        id="query"
+        placeholder="Enter Your query about Automobile industry"
+      />
+      <button type="submit">Get</button>
+    </form>
+    <div id="response"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
